@@ -16,6 +16,8 @@ test: gen
 	go test -race ./...
 start:
 	export $$(cat .env | grep -v ^\# | xargs) && ./bin/api
+	
+#下面是编译开发用的
 podman:
 	podman build -t $(DOCKER_REGISTRY)/$(BUILD):$(RELEASE_VERSION) -f ./build/$(BUILD)/Dockerfile .
 push:
