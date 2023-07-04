@@ -16,7 +16,7 @@ test: gen
 	go test -race ./...
 start:
 	export $$(cat .env | grep -v ^\# | xargs) && ./bin/api
-docker:
-	docker build -t $(DOCKER_REGISTRY)/$(BUILD):$(RELEASE_VERSION) -f ./build/$(BUILD)/Dockerfile .
+podman:
+	podman build -t $(DOCKER_REGISTRY)/$(BUILD):$(RELEASE_VERSION) -f ./build/$(BUILD)/Dockerfile .
 push:
-	docker push $(DOCKER_REGISTRY)/$(BUILD):$(RELEASE_VERSION)
+	podman push $(DOCKER_REGISTRY)/$(BUILD):$(RELEASE_VERSION)
