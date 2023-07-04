@@ -7,7 +7,7 @@ WORKDIR $GOPATH/src/github.com/kzaun/moutfire
 COPY . .
 
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64\
-    go build -mod=vendor -ldflags="-w -s" -o /go/bin/api ./cmd/api
+    go build -ldflags="-w -s" -o /go/bin/api ./cmd/api
 
 # Step 2:
 # you can also use scratch here, but I prefer to use alpine because it comes with basic command such as curl useful for debugging.
