@@ -2,3 +2,4 @@
 bin
 !bin/README.md
 data/
+go.sum
