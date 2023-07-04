@@ -1,8 +1,8 @@
 # Gin + Rel Todo Backend Example
 
-[![GoDoc](https://godoc.org/github.com/go-rel/gin-example?status.svg)](https://godoc.org/github.com/go-rel/gin-example)
+[![GoDoc](https://godoc.org/github.com/kzaun/moutfire?status.svg)](https://godoc.org/github.com/kzaun/moutfire)
 [![Build Status](https://travis-ci.com/go-rel/gin-example.svg?branch=master)](https://travis-ci.com/go-rel/gin-example)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-rel/gin-example)](https://goreportcard.com/report/github.com/go-rel/gin-example)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kzaun/moutfire)](https://goreportcard.com/report/github.com/kzaun/moutfire)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d506b5b2df687cbcd358/maintainability)](https://codeclimate.com/github/go-rel/gin-example/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d506b5b2df687cbcd358/test_coverage)](https://codeclimate.com/github/go-rel/gin-example/test_coverage)
 

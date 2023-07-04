@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-rel/gin-example/api/handler"
-	"github.com/go-rel/gin-example/todos"
-	"github.com/go-rel/gin-example/todos/todostest"
 	"github.com/go-rel/rel/where"
 	"github.com/go-rel/reltest"
+	"github.com/kzaun/moutfire/api/handler"
+	"github.com/kzaun/moutfire/todos"
+	"github.com/kzaun/moutfire/todos/todostest"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/go-rel/gin-example/api"
 	"github.com/go-rel/mysql"
 	"github.com/go-rel/rel"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/kzaun/moutfire/api"
 	"go.uber.org/zap"
 )
 

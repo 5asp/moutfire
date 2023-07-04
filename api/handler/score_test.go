@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-rel/gin-example/api/handler"
-	"github.com/go-rel/gin-example/scores"
 	"github.com/go-rel/reltest"
+	"github.com/kzaun/moutfire/api/handler"
+	"github.com/kzaun/moutfire/scores"
 	"github.com/stretchr/testify/assert"
 )
 

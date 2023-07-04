@@ -6,9 +6,9 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-rel/gin-example/todos"
 	"github.com/go-rel/rel"
 	"github.com/go-rel/rel/where"
+	"github.com/kzaun/moutfire/todos"
 	"go.uber.org/zap"
 )
 

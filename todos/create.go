@@ -3,8 +3,8 @@ package todos
 import (
 	"context"
 
-	"github.com/go-rel/gin-example/scores"
 	"github.com/go-rel/rel"
+	"github.com/kzaun/moutfire/scores"
 	"go.uber.org/zap"
 )
 

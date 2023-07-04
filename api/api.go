@@ -7,10 +7,10 @@ import (
 	"github.com/gin-contrib/requestid"
 	ginzap "github.com/gin-contrib/zap"
 	"github.com/gin-gonic/gin"
-	"github.com/go-rel/gin-example/api/handler"
-	"github.com/go-rel/gin-example/scores"
-	"github.com/go-rel/gin-example/todos"
 	"github.com/go-rel/rel"
+	"github.com/kzaun/moutfire/api/handler"
+	"github.com/kzaun/moutfire/scores"
+	"github.com/kzaun/moutfire/todos"
 	"go.uber.org/zap"
 )
 

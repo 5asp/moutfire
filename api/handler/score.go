@@ -2,8 +2,8 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/go-rel/gin-example/scores"
 	"github.com/go-rel/rel"
+	"github.com/kzaun/moutfire/scores"
 )
 
 // Score for score endpoints.
